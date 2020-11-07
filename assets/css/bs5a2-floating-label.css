@@ -147,6 +147,7 @@ form-float-underline Floating Label
     height: 1.2px;
     width: 100%;
     bottom: 0;
+    left:0;
     }
     .form-float.form-float-ul .form-control:focus ~ .form-float-underline,
     .form-float.form-float-ul .form-select:focus ~ .form-float-underline{
@@ -155,6 +156,7 @@ form-float-underline Floating Label
     .form-float.form-float-ul .form-control ~ .form-float-underline:before,
     .form-float.form-float-ul .form-select ~ .form-float-underline:before{
     position: absolute;
+    left:0;
     content: "";
     height: 100%;
     width: 100%;
