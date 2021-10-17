@@ -1,0 +1,33 @@
+{
+  "name": "bs5_float_label_form",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass -w scss:dist/css",
+    "sass_min": "sass -w scss:dist/css -s compressed",
+    "min": "sass -w scss/main.scss dist/css/main.min.css -s compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skwebs/bs5-float-label-form.git"
+  },
+  "author": "Satish Kumar Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skwebs/bs5-float-label-form/issues"
+  },
+  "homepage": "https://github.com/skwebs/bs5-float-label-form#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "bootstrap": "^5.1.3",
+    "cropperjs": "^1.5.12",
+    "fontawesome-free": "^1.0.1",
+    "sweetalert2": "^11.1.9"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.7",
+    "postcss-cli": "^9.0.1",
+    "sass": "^1.43.2"
+  }
+}
